@@ -1,0 +1,12 @@
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+
+<div class="container">
+    <div class="titlequote {{ $class }}">
+        <h1>{{ $title }}</h1>
+        <div>
+            {{ $.Inner }}
+        </div>
+    </div>
+
+</div>

@@ -7,7 +7,14 @@
     {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+    {{ $script := resources.Get "js/main.js" | minify | fingerprint }}
+    <script defer src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
+    <!-- PWA -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
 </head>

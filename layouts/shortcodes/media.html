@@ -1,0 +1,12 @@
+{{ $title := .Get "title" }}
+{{ $img := .Get "img" }}
+
+<div class="media">
+    <div>
+        <h1>{{ with $title }} {{ $title }} {{ end }}</h1>
+        <div>
+            {{ $.Inner }}
+        </div>
+    </div>
+    <img src="{{ $img }}">
+</div>

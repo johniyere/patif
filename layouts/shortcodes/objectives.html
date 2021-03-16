@@ -1,0 +1,8 @@
+{{ $title := .Get "title" }}
+
+<div class="container objectives">
+    <h1>{{ $title }}</h1>
+    <div class="obj-content">
+        {{ $.Inner }}
+    </div>
+</div>

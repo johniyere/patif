@@ -1,0 +1,60 @@
+.page-title {
+    background: var(--gainsboro);
+    
+    @include container;
+    padding-top: 10em;
+    padding-bottom: 0.6em;
+    margin-bottom: 3em;
+
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.media {
+    padding: 0 6em;
+    display: flex;
+    margin-bottom: 3em;
+    
+    img {
+        height: 60%;
+        width: 70%;
+        border-radius: 10px;
+    }
+}
+
+.titlequote {
+    margin-bottom: 3em;
+    padding: 3em;
+    display: flex;
+    // justify-content: ;
+    h1 {
+        margin-bottom: 0;
+    }
+    
+}
+
+.objectives {
+    h1 {
+        text-align: center;
+    }
+}
+
+.objective {
+    width: min-content;
+    img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.obj-content {
+    display: flex;
+    // justify-content: ;
+}

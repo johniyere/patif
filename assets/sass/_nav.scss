@@ -1,0 +1,42 @@
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    @include container();
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+    transition: 0.4s;
+    .logo {
+        height: 1.5em;
+    }
+
+    .menu {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        .item {
+            .link {
+                &:hover, &:focus {
+                    color: var(--red);
+                }
+            }
+        }
+    }
+
+    &.scroll {
+        background-color: white;
+        padding-top: 1.3em;
+        padding-bottom: 1.3em;
+        box-shadow: 4px 0 10px -3px #c1c1c1;
+    }
+}

@@ -1,8 +1,11 @@
 {{ define "main" }}
 
-    <div style="margin-top: 109px;">
-        <h4>This is the content from <span style="color: red;">{{.Title}}</span></h4>
-        <b>{{ .Content }}</b> 
-    </div>
+    <section>
+        <div class="page-title">
+            <h1>{{ .Title }}</h1>
+        </div>
+        {{ .Content }}
+        
+    </section>
     
 {{ end }}

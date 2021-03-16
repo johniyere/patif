@@ -1,13 +1,31 @@
 {{ define "main" }}
-{{ $backgroundImage := relURL "images/ursa-bavcar-6O4zf9lga6Q-unsplash.jpg" }}
-<div style="background-image: linear-gradient(120.4deg, rgba(0, 0, 0, 0.41) 49.44%, rgba(40, 22, 111, 0.222128) 97.4%),
-            url('{{ $backgroundImage }}');" class="background-image">
-</div>
+{{ $heroImg := relURL "images/larm-rmah-AEaTUnvneik-unsplash.jpg" }}
+<section class="hero-section container">
+    <div class="">
+        <h2>A Patrick Iyere <span class="text-green">Foundation</span></h2>
+        <h1 class="hero-heading">We are all about <span class="text-red">heart</span></h1>
+        <p class="hero-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p>
+        <a class="btn btn-white" href="/about">Learn more</a>
+    </div>
+    <img class="hero-image" src="{{ $heroImg }}">
+</section>
+<section class="block-message">
+    <h1 class="text-fancy text-green">Patrick Iyere Foundation is a charitable organization created for 2 main purposes</h1>
+    <div >
+        <p>
+            To provide support for disadvantaged young people to achieve higher education 
+            and life skills necessary for  self-sustenance.
+        </p>
+        <p>
+            Provide a platform to create awareness of cardiovascular diseases, conduct 
+            and support research and provide support for those affected. 
+        </p>
+    </div>
+</section>
+<section>
 
-<div class="hero">
-    <span>
-        <img src="images/logo-white.png" class="hero-logo" alt="">
-    </span>
-    <h4 style="color: white; text-align: center; margin-top: 2rem">COMING SOON...</h4>
-</div>
+</section>
 {{ end }}

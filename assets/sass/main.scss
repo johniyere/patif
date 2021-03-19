@@ -1,5 +1,16 @@
-@import "themes";
-@import "nav";
+@charset "UTF-8";
 
-@import "btn";
-@import "content";
+// 1. Configuration and helpers
+@import "abstracts/breakpoints", "abstracts/colors", "abstracts/mixins";
+
+// 3. Base stuff
+@import "base/root", "base/base", "base/reset", "base/typography";
+
+// 4. Layout-related sections
+@import "pages/home", "pages/about";
+
+// 5. Components
+@import "components/buttons", "components/nav";
+
+// 5. Components
+@import "utilities/color-utilities", "utilities/container";

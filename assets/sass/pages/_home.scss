@@ -1,0 +1,37 @@
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-section {
+  height: 100vh;
+  // background: var(--clr-primary-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-heading {
+    font-size: 4em;
+    font-family: var(--font-fancy);
+  }
+
+  .hero-content {
+    color: var(--clr-gray-100);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .hero-image {
+    height: 75%;
+    width: 70%;
+    border-radius: 0.5em;
+    object-fit: cover;
+  }
+}
+
+.block-message {
+  display: flex;
+  padding: 7em 8em;
+}

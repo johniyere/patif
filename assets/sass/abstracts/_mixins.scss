@@ -1,0 +1,4 @@
+@mixin btn-color($bg, $color: var(--clr-gray-100)) {
+  background: $bg;
+  color: $color;
+}

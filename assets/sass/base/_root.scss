@@ -1,0 +1,12 @@
+:root {
+  @each $color, $shade in $colors {
+    @each $prop, $value in $shade {
+      --clr-#{$color}-#{$prop}: #{$value};
+    }
+  }
+
+  --font-fancy: "Fredoka One", cursive;
+  --font-head: "Josefin Sans", sans-serif;
+  --font-body: "Josefin Sans", sans-serif;
+  --font-size: 20px;
+}

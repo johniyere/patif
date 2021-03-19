@@ -1,14 +1,17 @@
 {{ $logoImg := relURL "images/logo.png" }}
 
 <nav class="topnav" id="topnav">
-    <a href="/" >
-        <img src="{{ $logoImg }}" class="logo">
-    </a>
-
-    <ul class="menu">
-        <li class="item">
-            <a href="/about" class="link">About Us</a>
-        </li>
-    </ul>
+    <div class="container">
+        <a href="/" >
+            <img src="{{ $logoImg }}" class="logo">
+        </a>
+    
+        <ul class="menu">
+            <li class="item">
+                <a href="/about" class="link">About Us</a>
+            </li>
+        </ul>
+    </div>
+    
 
 </nav>

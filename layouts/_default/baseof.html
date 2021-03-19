@@ -2,7 +2,11 @@
 <html lang="en">
     {{ partial "head" . }}
     <body>
-        {{ partial "topnav" . }}
+        <header>
+            {{ partial "topnav" . }}
+        </header>
+        
+        
         <main role="main">
             {{ block "main" . }}
             {{ end }}

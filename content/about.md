@@ -23,24 +23,24 @@ sponsorship and linkages to further support. </p>
 {{< /titlequote >}}
 
 {{< objectives title="Core Objectives" >}}
-{{< imgmedia src="/images/andres-rodriguez-bbkVTvf0eQY-unsplash.jpg" >}}
+{{< imgmedia src="/images/child.jpg" >}}
 
 <p>To facilitate and provide sponsorship support for gifted students
 lacking the financial means to achieve further education.</p>
 {{< /imgmedia >}}
-{{< imgmedia src="/images/andres-rodriguez-bbkVTvf0eQY-unsplash.jpg" >}}
+{{< imgmedia src="/images/pottery.jpg" >}}
 <p>To facilitate skills training and apprenticeship to young people in the
 local community to empower them for self-sufficiency.</p>
 {{< /imgmedia >}}
-{{< imgmedia src="/images/andres-rodriguez-bbkVTvf0eQY-unsplash.jpg" >}}
+{{< imgmedia src="/images/heart.jpg" >}}
 <p>To create awareness about cardiovascular diseases and share information
 and resources that is empowering.</p>
 {{< /imgmedia >}}
-{{< imgmedia src="/images/andres-rodriguez-bbkVTvf0eQY-unsplash.jpg" >}}
+{{< imgmedia src="/images/health.jpg" >}}
 <p>To facilitate support for treatment and care of cardiovascular health
 patients.</p>
 {{< /imgmedia >}}
-{{< imgmedia src="/images/andres-rodriguez-bbkVTvf0eQY-unsplash.jpg" >}}
+{{< imgmedia src="/images/support.jpg" >}}
 <p>To provide emotional and physical support for family careers and others that may
 be impacted or affected.</p>
 {{< /imgmedia >}}

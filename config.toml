@@ -1,3 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Patirck Iyere Foundation"
+title = "PATIF - Patirck Iyere Foundation"
+
+[params]
+    description = "To provide opportunities to thrive and arm people with the tools with which to do so, through information, research, training. sponsorship and linkages to further support."

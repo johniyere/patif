@@ -10,17 +10,23 @@
 }
 
 .media {
-  padding: 0 3em;
+  // padding: 0 7em;
+  padding-inline: 7em;
   display: flex;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 
   &__heading {
     margin-right: 4em;
+    flex-basis: 110%;
+
+    h1 {
+      margin-bottom: 0.8em;
+    }
   }
   img {
-    height: 60%;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
+    // flex-basis: 100%;
   }
 }
 

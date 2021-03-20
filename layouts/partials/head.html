@@ -1,7 +1,28 @@
 <head>
+    <!-- META TAGS-->
     <title>{{ .Title }}</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{ $img := print .Permalink "/images/larm-rmah-AEaTUnvneik-unsplash.jpg" }}
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    <meta name="image" content="{{ $img | absURL }}">
+
+     <!-- Open Graph data -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
+    <meta property="og:image" content="{{ $img | absURL }}" />
+    <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+
+     <!-- TODO: Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" content="@patif">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+    <meta name="twitter:creator" content="@patif">
+    <meta name="twitter:image" content="{{ $img | absURL }}" />
 
     <!-- CSS & JS -->
     {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint}}

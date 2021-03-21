@@ -1,5 +1,10 @@
 # dependencies
+/node_modules
 
 # Generated Files
 /public
 /resources
+
+# IDEs and editors
+.idea
+.vscode
